@@ -1,0 +1,17 @@
+{
+    "name": "leo/popo",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Leo\\PoPo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JLL",
+            "email": "jll@jll.com"
+        }
+    ],
+    "require": {}
+}
