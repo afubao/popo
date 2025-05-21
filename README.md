@@ -1,6 +1,8 @@
 参考java的pojo而来，将入参绑定到对象中，面向对象编程
 
-支持thinkphp webman框架，其他非常驻内存框架应该都支持，需要自己注意
+支持thinkphp框架，其他非常驻内存框架应该都支持，需要自己调试
+
+webman也可以使用，部分依赖tp严重的地方可以clone一份代码修改即可
 
 hyperf框架 https://github.com/afubao/popo-hyperf
 

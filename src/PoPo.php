@@ -1,6 +1,6 @@
 <?php
 
-namespace Leo\PoPo;
+namespace JLeo\PoPo;
 
 use app\common\exception\PoPoException;
 use ReflectionClass;
