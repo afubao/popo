@@ -7,7 +7,7 @@ hyperf框架 https://github.com/afubao/popo-hyperf
 ```php
 # region 参数对象定义
 class TestParam extends PoPo {
-private int $id = 0; // 这是有默认值，前端可以不传
+    private int $id = 0; // 这是有默认值，前端可以不传
 
     private string $name; // 这是必传参数
     
