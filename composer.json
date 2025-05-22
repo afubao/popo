@@ -1,10 +1,10 @@
 {
-    "name": "jleo/popo",
+    "name": "jleo/popo-thinkphp",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "JLeo\\PoPo\\": "src/"
+            "JLeo\\PoPoTp\\": "src/"
         }
     },
     "authors": [
@@ -13,5 +13,7 @@
             "email": "a805964774@foxmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "topthink/framework": "^8.1"
+    }
 }

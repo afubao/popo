@@ -1,8 +1,7 @@
 <?php
 
-namespace JLeo\PoPo;
+namespace JLeo\PoPoTp;
 
-use app\common\exception\PoPoException;
 use ReflectionClass;
 use ReflectionException;
 use ReflectionNamedType;
@@ -43,7 +42,7 @@ abstract class PoPo implements Arrayable
      * PoPo constructor.
      * @param Request $request
      * @param array $param
-     * @throws ReflectionException|PoPoException
+     * @throws ReflectionException
      */
     public function __construct(Request $request, array $param = []) {
         if (empty($param)) {
@@ -84,7 +83,7 @@ abstract class PoPo implements Arrayable
     /**
      * 设置数据
      * @param $inputData
-     * @throws ReflectionException|PoPoException
+     * @throws ReflectionException
      */
     private function setData($inputData): void
     {
